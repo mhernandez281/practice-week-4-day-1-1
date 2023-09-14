@@ -46,4 +46,11 @@ average_points = float((points_game1 + points_game2) / 2)
 print(f"The average points over two games is: {average_points}!")
 #################### END OF PROBLEM SET ####################
 
+name = input("What is your name? ")
+print(name)
+sales = input("What is the number of sales made? ")
+print(sales)
+commission = int(sales) * .13
+print(f"Hello {name}, you have made {sales} sales. Your comission is {commission}")
 
+#End
